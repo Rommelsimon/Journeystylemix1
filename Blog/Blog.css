@@ -1,0 +1,87 @@
+/*Allgemeine Stile*/
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Stile für den Header*/
+header{
+    background-color: #333;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo img{
+    max-height: 100%;
+    width: auto;
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#logo {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#banner{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#Frankfurt{
+    background-color: white;
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.Stadionbild{
+    width: 50%; /* Breite in Pixeln */
+    height: auto; /* Höhe in Pixeln */
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+b {
+    font-size: 12px; /* Schriftgröße für Links */
+  }
