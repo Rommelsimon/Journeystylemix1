@@ -68,6 +68,11 @@ nav a{
 
 }
 
+#Frankfurt img{
+    width: 50%; /* Breite in Pixeln */
+    height: auto; /* Höhe in Pixeln */
+}
+
 .Stadionbild{
     width: 50%; /* Breite in Pixeln */
     height: auto; /* Höhe in Pixeln */
@@ -84,4 +89,16 @@ footer{
 
 b {
     font-size: 12px; /* Schriftgröße für Links */
+  }
+
+  .slider {
+    width: 600px; /* Breite des Sliders anpassen */
+    height: 300px; /* Höhe des Sliders anpassen */
+    overflow: hidden; /* Verberge Bilder, die aus dem Slider-Bereich herausragen */
+  }
+  
+  .slider img {
+    width: 100%; /* Bilder auf die Breite des Sliders anpassen */
+    height: auto; /* Höhe automatisch berechnen, um das Seitenverhältnis zu erhalten */
+    display: none; /* Verberge alle Bilder standardmäßig */
   }
